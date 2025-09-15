@@ -43,38 +43,3 @@ const mainMenu = async() => {
 }
 
 mainMenu();
-
-// do {
-//     do {
-//         invalidInput = false;
-//         rl.question(rl.prompt(), (answer) => {
-//             if (answer === '1') {
-//                 // List all tasks
-//                 listTasks();
-//             } else if (answer === '2') {
-//                 // Add a new task
-//             } else if (answer === '3') {
-//                 // Mark a task as completed
-//             } else {
-//                 console.log('Invalid input, try again...\n');
-//                 invalidInput = true;
-//             }
-//         });
-//     } while (invalidInput);
-    
-//     do{
-//         invalidInput = false;
-//         rl.question('\nWould you like to make another selection? (Y/N): ', (answer) => {
-//             if (answer === 'Y' || answer === 'y'){
-//                 keepGoing = true;
-//             } else if (answer === 'N' || answer === 'n') {
-//                 keepGoing = false;
-//             } else {
-//                 console.log('Invalid input, try again...\n');
-//                 invalidInput = true
-//             }
-//         })
-//     } while (invalidInput);
-    
-
-// } while (keepGoing);
