@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Groceries",
+    "description": "Pickup groceries for the upcoming week",
+    "status": "Complete"
+  },
+  {
+    "title": "Dinner",
+    "description": "Have dinner ready by 6pm",
+    "status": "Complete"
+  },
+  {
+    "title": "Homework",
+    "description": "Finish homework for back-end web dev",
+    "status": "Not complete"
+  },
+  {
+    "title": "Job interview",
+    "description": "Prepare and take job interview at 2pm",
+    "status": "Complete"
+  },
+  {
+    "title": "Oil change",
+    "description": "Take car in to get an oil change",
+    "status": "Not complete"
+  }
+]
