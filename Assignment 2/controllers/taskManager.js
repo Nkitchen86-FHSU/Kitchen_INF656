@@ -83,7 +83,7 @@ export const completeTask = async (taskIndex) => {
         taskArray[taskIndex-1].status = "Complete";
         try {
             await writeFile(tasksFile, JSON.stringify(taskArray, null, 2));
-            return console.log('Task successfully added!\n');
+            return console.log('Task successfully completed!\n');
         } catch (err) {
             console.log(`Failed to add task to file! Error: ${err}\n`);
             return [];
